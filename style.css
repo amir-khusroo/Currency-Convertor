@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(247, 235, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    height: 310px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.heading{
+    text-align: center;
+}
+.amount{
+    margin-top: 30px;
+}
+.amount input{
+    width: calc(100% - 20px);
+    border: none;
+    padding:10px;
+}
+.amount input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.select-container{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.2px solid black;
+    border-radius: 5px;
+}
+.select-container img{
+    width: 30px;
+}
+select{
+    border: none;
+    background-color: white;
+}
+button{
+    width: 100%;
+    font-size: 15px;
+    background-color: rgb(164, 47, 153);
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+i{
+    margin-top: 20px;
+}
